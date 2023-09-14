@@ -1,0 +1,38 @@
+.sand-clock-spinner {
+  width: 220px;
+  height: 80px;
+  position: absolute;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wider-spinner {
+  width: 340px;
+  height: 150px;
+  margin-top: 70px;
+  right: 390px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spin 2s linear infinite;
+}
+
+.spinning-sand-clock {
+  font-size: 66px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,52 @@
+.clock-text {
+  display: flex;
+  justify-content: center;
+}
+
+.clock-text-hour,
+.clock-text-minutes {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+}
+.clock-text-ampm {
+  font-size: var(--tiny-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin-left: var(--mb-0-25);
+}
+.clock-date {
+  text-align: center;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+/* @keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner-overlay {
+  position: relative;
+}
+
+.spinner {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 20px solid transparent; 
+  border-top: 4px solid #007bff; 
+  animation: spin 1s linear infinite; 
+  position: absolute;
+  top: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.timer-disabled {
+  opacity: 0.5; 
+  pointer-events: none;
+} */
